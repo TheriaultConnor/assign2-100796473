@@ -10,7 +10,7 @@
  */
 
  
-function twentytwentyonechild_wp_enqueue_scripts() {
+function twenty-twenty-onechild_wp_enqueue_scripts() {
     $parenthandle = 'twenty-twenty-one-style'; // This is 'twenty-twenty-one-style-style' for the Twenty Twenty-one theme.
     $theme = wp_get_theme();
     wp_enqueue_style( $parenthandle, get_template_directory_uri() . '/style.css', 
