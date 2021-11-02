@@ -29,7 +29,7 @@
     --global--color-darkblue:  #162431;
     
 
-    --global--color-primary: var(--global--color-dark-gray);
+    --global--color-primary: var(--global--color-white:);
     --global--color-background: var(--global--color-darkblue);
 }
 
