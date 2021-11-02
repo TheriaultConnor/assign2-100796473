@@ -11,3 +11,12 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twentytwentyonechild
 */
+
+:root {
+    /* Colors */
+    --global--color-primary: #99ccff;
+}
+
+body {
+    background-color: var(--global--color-primary);
+}
