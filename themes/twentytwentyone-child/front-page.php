@@ -44,8 +44,10 @@ if($test_query->have_posts()) {
      <div id="post-content"> <?php the_post_thumbnail(); ?> </div>
       
       
-      <?php
-      the_excerpt();
+     <?php
+      ?>
+
+      <div id="post-content-text"> <?php the_excerpt(); ?> </div> <?php
     }
 }
     ?>
