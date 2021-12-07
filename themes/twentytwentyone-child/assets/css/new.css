@@ -52,3 +52,7 @@ img {
     background-color: rgb(45, 86, 175);
 }
 
+#secondary-header {
+    color: rgb(45, 86, 175);
+    font-family: 'Times New Roman', Times, serif;
+}

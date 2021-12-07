@@ -27,7 +27,7 @@ get_header(); ?>
 endwhile; // End of the loop. 
 
 ?>
-  <div class="cell lage-12 text-center"><h2>Our recent posts</h2></div>
+  <div class="cell lage-12 text-center"><h2 id="secondary-header" >Our recent posts</h2></div>
   <?php
 $args = array(  
   'post_type' => 'post',
