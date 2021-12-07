@@ -11,6 +11,7 @@
 #site-universal-header {
     font-size: 4rem;
     color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 p {
@@ -27,6 +28,7 @@ img {
 
 #header-blue {
     color: rgb(45, 86, 175);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #socials {
@@ -55,4 +57,8 @@ img {
 #secondary-header {
     color: rgb(45, 86, 175);
     font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    background-color: #FAF9F6;
 }
