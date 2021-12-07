@@ -40,6 +40,15 @@ img {
 #line {
     border-top: 1px solid darkblue;
     width: 20%;
-    
+}
+
+#quotes {
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+.wp-block-button {
+    background-color: rgb(45, 86, 175);
 }
 
