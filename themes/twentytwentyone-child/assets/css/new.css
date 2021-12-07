@@ -2,6 +2,17 @@
     text-align: center;
 }
 
+#post-content-text {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+#site-universal-header {
+    font-size: 4rem;
+    color: darkblue;
+}
+
 a:hover {
     color: darkblue;
 }
@@ -27,3 +38,4 @@ img {
     width: 20%;
     
 }
+

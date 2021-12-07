@@ -14,7 +14,7 @@ get_header(); ?>
     <main id="main" class="site-main" role="main">
     <div class="grid-container">
   <div class="grid-x grid-margin-x">
-    <div class="cell lage-12 text-center"><h1>The best Toronto Maple Leafs fan page</h1></div>
+    <div class="cell lage-12 text-center"><h1 id="site-universal-header">The best Toronto Maple Leafs fan page</h1></div>
     <div  class="cell lage-12 text-center">
    <?php while ( have_posts() ) :
 	the_post();
