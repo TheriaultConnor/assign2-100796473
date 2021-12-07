@@ -24,7 +24,30 @@ get_header(); ?>
 	if ( comments_open() || get_comments_number() ) {
 		comments_template();
 	}
-endwhile; // End of the loop. 
+endwhile; // End of the loop. ?>
+  <div class="cell lage-12 text-center"><h2>Our recent postss</h2></div>
+  <?php
+$args = array(  
+  'post_type' => 'post',
+  'post_status' => 'publish',
+  'posts_per_page' => 3, 
+);
+
+$test_query = new WP_Query($args);
+
+if($test_query->have_posts()) {
+    while ($test_query->have_posts()) {
+      $test_query->the_post();
+      ?>
+      <h3 id="post-content"><a href="<?php the_permalink(); ?>"><?php the_title(); ?>  </a></h3>
+
+     <div id="post-content"> <?php the_post_thumbnail(); ?> </div>
+      
+      
+      <?php
+      the_excerpt();
+    }
+}
     ?>
   </div>
   </div>

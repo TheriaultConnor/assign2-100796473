@@ -25,6 +25,13 @@ function twentytwentyonechild_wp_enqueue_scripts() {
     get_stylesheet_directory_uri() . '/assets/css/vendor/foundation.min.css'
         
     );
-    //
+    wp_enqueue_style( 'new-style',
+    get_stylesheet_directory_uri() . '/assets/css/new.css'
+        
+    );
+    
 }
 add_action( 'wp_enqueue_scripts', 'twentytwentyonechild_wp_enqueue_scripts' );
+
+add_theme_support( 'post-thumbnails' );
+add_image_size('my-custom-thumb', 210, 210, true);

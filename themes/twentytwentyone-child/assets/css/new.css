@@ -1,0 +1,29 @@
+#post-content {
+    text-align: center;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+img {
+    border: 2px solid darkblue;
+}
+
+#header-blue {
+    color: rgb(45, 86, 175);
+}
+
+#socials {
+    margin-left: 10%;
+}
+
+#contact tr:nth-child(even){background-color: #f2f2f2;}
+
+#contact tr:hover {background-color: #ddd;}
+
+#line {
+    border-top: 1px solid darkblue;
+    width: 20%;
+    
+}
